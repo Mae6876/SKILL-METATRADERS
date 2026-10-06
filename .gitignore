@@ -1,0 +1,31 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+*~
+*.swp
+
+# Local outputs (regenerate with the scripts)
+evidence.json
+out/
+tmp/
+
+# Never commit EA binaries or the source index itself
+*.ex4
+*.ex5
+*.mq4
+*.mq5
+*.set
+sent_files.html
+*.pdf
